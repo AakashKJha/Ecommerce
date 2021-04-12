@@ -17,49 +17,32 @@ class ProductSeeder extends Seeder
         //
         DB::table('products')->insert([
             [
-                'name'=>'LG Fridge',
-                'price'=>'15000',
-                "category"=>"Fridge",
-                "gallery"=>"https://drive.google.com/file/d/1hp_uzZNe3GzWFcreNPqUcJfZIpowvE78/view?usp=sharing",
-                "discription"=>"a smartphone with 4gb 12gb",
-               
-                
-            ],
-            [
-                'name'=>'VIO TV',
-                'price'=>'10000',
-                "category"=>"TV",
-                "gallery"=>"https://drive.google.com/file/d/1kQydqW6AaNw40EwD7EIrsi89sDIYClUs/view?usp=sharing",
-                "discription"=>"a tv  with 4gb 12gb android OS",
-               
-                
-            ],
-            [
-                'name'=>'Vivo',
-                'price'=>'20000',
+                'name'=>'Oppo Mobile',
+                "price"=>"20000",
+                "discription"=>"a smartphone with 8gb ram and much more feature",
                 "category"=>"mobile",
-                "gallery"=>"https://drive.google.com/file/d/1MVA3vFN95gqw41fumCCcCiDAm-XAcbJ9/view?usp=sharing",
-                "discription"=>"a smartphone with 4gb 128gb",
-               
-                
+                "gallery"=>"https://assetscdn1.paytm.com/images/catalog/product/M/MO/MOBOPPO-A52-6-GFUTU6297453D3D253C/1592019058170_0..png"
             ],
             [
-                'name'=>'One+',
-                'price'=>'35000',
-                "category"=>"mobile",
-                "gallery"=>"https://drive.google.com/file/d/1tPJdxeAY2D-Y-w9Mz3Ex44C3vpno7n64/view?usp=sharing",
-                "discription"=>"a smartphone with 8gb 264gb sd888",
-               
-                
-            ],
-            [
-                'name'=>'SamSung TV',
-                'price'=>'100000',
+                'name'=>'Samsung TV',
+                "price"=>"10000",
+                "discription"=>"a smart tv with much more feature",
                 "category"=>"tv",
-                "gallery"=>"https://drive.google.com/file/d/1GzZJTsUccIH6g1A3-ixWIcIe2jDn93bo/view?usp=sharing",
-                "discription"=>"a smartphone with 4gb 12gb",
-               
-                
+                "gallery"=>"https://i.gadgets360cdn.com/products/televisions/large/1548154685_832_panasonic_32-inch-lcd-full-hd-tv-th-l32u20.jpg"
+            ],
+            [
+                'name'=>'LG TV',
+                "price"=>"15000",
+                "discription"=>"a smart with much more feature",
+                "category"=>"tv",
+                "gallery"=>"https://4.imimg.com/data4/PM/KH/MY-34794816/lcd-500x500.png"
+            ],
+            [
+                'name'=>'panasonic fridge',
+                "price"=>"10000",
+                "discription"=>"a fridge with much more feature",
+                "category"=>"fridge",
+                "gallery"=>"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTFx-2-wTOcfr5at01ojZWduXEm5cZ-sRYPJA&usqp=CAU"
             ]
         ]);
     }
