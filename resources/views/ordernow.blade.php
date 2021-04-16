@@ -27,7 +27,7 @@
               <form method="POST" action="orderplace">
                 @csrf
                 <div class="form-group">
-                  <textarea placeholder="enter your address"  name="address" class="form-control" > </textarea>
+                  <textarea placeholder="enter your address"  name="address" class="form-control" required> </textarea>
                 </div>
                 <div class="form-group">
                     <label for="">Payment Method</label>
@@ -40,4 +40,13 @@
               </form>
           </div>
 </div>
+
 @endsection
+<?php
+if(empty($_POST['address'])){
+  echo "please fill the address";
+}
+else{
+  $address = $_POST['address'];
+}
+?>
