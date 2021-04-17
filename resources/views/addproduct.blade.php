@@ -16,7 +16,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Category</label>
-                    <input type="text" name="category" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Price">
+                    <input type="text" name="category" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Category">
                   </div>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Gallery</label>
